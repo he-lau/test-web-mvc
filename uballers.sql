@@ -1,6 +1,3 @@
-DROP DATABASE IF EXISTS uballers;
-CREATE DATABASE  uballers;
-USE uballers;
 
 CREATE TABLE users(
   user_id INT NOT NULL AUTO_INCREMENT,
