@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+	background-color: #eee;
+  font-family:verdana;
+  font-size: 12px;
+}
+
+header {
+	height:auto;
+  padding: 25px;
+	background:#3d5b99;
+	color:white;
+}
+
+.login {
+  width:60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login span {
+  display: inline-block;
+  margin: 5px 10px 5px 0;
+}
+
+.login span label {
+  position:relative;
+  top:-4px;
+}
+
+.submit-login{
+  height: 22px;
+	background:#5b7bc0;
+	color:white;
+  border: solid black;
+  border-width: 1px;
+	cursor:pointer;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+}
+
+
+main {
+  font-size: 12px;
+  margin-top: 40px;
+  width:60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sub-title {
+  font-weight: bold;
+}
+
+#register {
+  width: auto;
+}
+
+.register input {
+  width: 400px;
+  border-radius:5px 5px 5px 5px;
+	background:white;
+	padding:10px;
+	margin-top:8px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+}
+
+.register input.name-field {
+  width: 187px ;
+}
+
+#date-field {
+  width: 120px ;
+}
+
+#rb {
+	height:15px;
+	width:15px;
+
+}
+
+.gender {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+.register #button-register {
+  font-size: 16px;
+	width:250px;
+	background:green;
+	color:white;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+	cursor:pointer;
+	outline:none;
+}
+
+#date-info {
+	display: inline-block;
+  margin-left: 12px;
+  text-decoration: none;
+}
+#account-info {
+  margin-top: 8px;
+	display: inline-block;
+  text-decoration: none;
+}
+
+#terms-info{
+	color:gray;
+}
+
+.form-control small {
+	color: #e74c3c;
+	visibility: hidden;
+  position: absolute;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
+.form-control input:focus {
+	outline: 0;
+	border-color: blue;
+}
+
+.form-control.success input {
+	border-color: #2ecc71;
+}
+
+.form-control.error input {
+	border-color: #e74c3c;
+}
+
+footer {
+  height: 100px;
+}
